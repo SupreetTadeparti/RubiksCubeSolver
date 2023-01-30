@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+.btns {
+  position: fixed;
+  left: 50%;
+  bottom: 5%;
+  transform: translate(-50%);
+  display: flex;
+  justify-content: space-around;
+  width: 25vw;
+}
+
+.btn.solve {
+  --clr: hsl(118, 100%, 38%);
+}
+
+.btn.scramble {
+  --clr: hsl(202, 100%, 39%);
+}
+
+.btn {
+  user-select: none;
+  cursor: pointer;
+  color: var(--clr);
+  font-family: sans-serif;
+  border: 1px solid var(--clr);
+  padding: 0.75em;
+}
